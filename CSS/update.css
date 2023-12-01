@@ -1,0 +1,28 @@
+.update{
+    height: 480px;
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.085);
+    margin-bottom: -30px;
+    overflow-y:scroll;
+}
+.update1{
+    background-color: rgba(0, 255, 255, 0.175);
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    margin-top: 25px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+.update1 a{
+    text-decoration: none;
+    color: red;
+} 
+.update::-webkit-scrollbar{
+    width: 10px;
+    height: 1px;
+}

@@ -1,0 +1,19 @@
+.program{
+    height: 200px; 
+    width: 350px; 
+    background-color: rgba(122, 184, 239, 0.14);
+    border-radius: 4px; 
+    display: inline-block; 
+    margin: 30px 15px 30px 15px;
+} 
+
+.program_img{
+    height: 130px; 
+  margin-top: 30px; 
+
+} 
+.program_img_div{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background-color: rgba(245, 245, 220, 0.167); 
+    height: 200px;width: 140px;
+} 

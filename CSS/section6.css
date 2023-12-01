@@ -1,0 +1,33 @@
+.section6-heading{
+    margin-bottom: 40px;  
+    margin-top: 40px;
+    font-size: 40px; 
+    color:  #061A40;
+    text-shadow: 0 0 3px #f1e9e9, 0 0 5px #d4d4ed; 
+    
+} 
+.section6-div{  
+    display: flex;
+    height: 250px; 
+    width: 90%; 
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.045);  
+    display: flex;
+    border-radius: 5px;
+}   
+.sec5-img1{
+    height: 180px; 
+    margin-top: 7px; 
+    width: 200px; 
+    justify-content: space-around;
+} 
+.s6img1{
+    margin-top: 40px; 
+    padding: 20px;
+}  
+/* 1059  */ 
+@media (max-width:1059px){
+    .section6-div{
+        display: none;
+    }
+}

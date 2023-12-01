@@ -1,0 +1,12 @@
+.keyword{
+    color: rgba(149, 221, 223, 0.668);
+}
+.roundB{
+    color: rgb(255, 255, 0);
+}
+.file{
+    color: rgb(168, 168, 239);
+}
+.com{
+    color: gray;
+}

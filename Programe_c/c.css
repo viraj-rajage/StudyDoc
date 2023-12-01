@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anonymous Pro', monospace;
+    scroll-behavior: smooth;
+  }
+  body {
+    background: #061A40;
+    overflow-x: hidden;
+  }
+
+  @media (max-width:442px) {
+    .com_img {
+      height: 70px;
+      width: 80px;
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+  }
+
+  .com_ul {
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .com_a {
+    text-decoration: none;
+    color: rgb(5, 138, 255);
+    justify-content: space-evenly;
+
+  }
+
+  .com_a:hover {
+    color: #bd83ec;
+
+  }
+
+  .com_li {
+    margin-bottom: 8px;
+  }
+
+  .com_btn {
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }  
+
+
+.python_heading{
+  margin-bottom: 40px;  
+  margin-top: 40px;
+  font-size: 40px; 
+  color:  #061A40;
+  text-shadow: 0 0 3px #f1e9e9, 0 0 5px #d4d4ed; 
+   
+}
+
+/* Style for the close icon */
+
+ 
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.div-box {
+  width: 200px;
+  height: 100px; 
+  border-radius: 5px; 
+  background-color: aliceblue;
+  border: 1px solid #000000;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.icon {
+  cursor: pointer;
+  color: rgb(42, 32, 74);
+  margin: 5px;
+}  
+.icon:hover{
+  color: blue;
+}
+.div-content{
+  display: none;
+}
+.python_second_div{
+background: rgba(30, 42, 215, 0.174); 
+height: 20px;
+width: 100%;
+
+clip-path: polygon(75% 0%, 85% 49%, 75% 100%, 0% 100%, 6% 50%, 0% 0%);
+}

@@ -1,0 +1,392 @@
+.container{
+    margin-top: 10px;
+}
+
+.about{
+    text-align: center;
+    gap: 15px;
+    display: grid;
+}
+.about h1{
+    color: white;
+font-size: 40px;
+margin-top: 20px;
+}
+.about p{
+    color: white;
+font-size: 15px;
+margin-left: 12px;
+    margin-right: 12px;
+}
+
+.points{display: flex;
+    gap: 29px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 77px;
+}
+
+.miss{
+    width: 580px;
+height: 353px;
+border-radius: 3px;
+text-align: center;
+box-shadow: 2px 2px 2px 2px #000;
+overflow: hidden;
+color: #fff;
+}
+
+.miss:hover{
+    background-color: #0f0f60;
+        /* box-shadow: none; */
+
+}
+
+.miss:hover i,
+.miss:hover h1,
+.miss:hover p{
+    color: white;
+}
+
+.miss:hover hr{
+    background-color: white;
+}
+
+.miss:hover i{
+    transform: translateY(-15px);
+}
+
+.miss:hover i,
+.miss:hover h1,
+.miss:hover hr{
+    transition: all 400ms ease-in-out;
+}
+
+.miss i{
+    font-size: 40px;
+padding: 20px;
+text-shadow: 0 0 5px white;
+}
+.miss hr{
+    width: 50px;
+height: 3px;
+margin: 0 auto;
+border: none;
+background-color: white;
+}
+.miss h1{
+    margin-bottom: 10px;
+margin-top: 20px;
+}
+.miss p{
+    padding: 20px;
+font-size: 20px;
+}
+
+
+
+
+
+@media (max-width:598px){
+   .footer{
+    height: 170px;
+   }
+}
+
+@media screen and (max-width:1250){
+    .miss p {
+        padding: 10px;
+        font-size: 18px;
+      }
+}
+
+@media screen and (max-width:1020px){
+    .about{
+    text-align: center;
+    gap: 13px;
+    display: grid;
+}
+.about h1{
+    color: white;
+font-size: 35px;
+margin-top: 20px;
+}
+.about p{
+    color: white;
+font-size: 12px;
+}
+
+.points{display: flex;
+    gap: 29px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 120px;
+margin-right: 120px;
+margin-top: 67px;
+}
+
+.miss{
+    width: 580px;
+height: 353px;
+border-radius: 3px;
+text-align: center;
+box-shadow: 2px 2px 2px 2px #000;
+overflow: hidden;
+}
+
+.miss i{
+    font-size: 30px;
+padding: 20px;
+text-shadow: 0 0 5px white;
+}
+.miss hr{
+    width: 40px;
+height: 3px;
+margin: 0 auto;
+border: none;
+background-color: white;
+}
+.miss h1{
+    margin-bottom: 10px;
+margin-top: 20px;
+    font-size: 25px;
+}
+.miss p{
+    padding: 19px;
+font-size: 15px;
+}
+}
+
+@media screen and (max-width:790px){
+    .about{
+    text-align: center;
+    gap: 13px;
+    display: grid;
+}
+.about h1{
+    color: white;
+font-size: 30px;
+margin-top: 20px;
+}
+.about p{
+    color: white;
+font-size: 12px;
+}
+
+.points{display: flex;
+    gap: 29px;
+    justify-content: center;
+    text-align: center;
+margin-left: 82px;
+margin-right: 82px;
+margin-top: 62px;
+}
+
+.miss{
+    width: 580px;
+height: 353px;
+border-radius: 3px;
+text-align: center;
+box-shadow: 2px 2px 2px 2px #000;
+overflow: hidden;
+}
+
+.miss i{
+    font-size: 25px;
+padding: 20px;
+text-shadow: 0 0 5px white;
+}
+.miss hr{
+    width: 30px;
+height: 3px;
+margin: 0 auto;
+border: none;
+background-color: white;
+}
+.miss h1{
+    margin-bottom: 10px;
+margin-top: 20px;
+    font-size: 20px;
+}
+.miss p{
+    padding: 17px;
+font-size: 13px;
+}
+}
+
+
+@media screen and (max-width:610px){
+    .about{
+    text-align: center;
+    gap: 13px;
+    display: grid;
+}
+.about h1{
+    color: white;
+font-size: 25px;
+margin-top: 20px;
+}
+.about p{
+    color: white;
+font-size: 12px;
+}
+
+.points{display: grid;
+    gap: 29px;
+    justify-content: center;
+    text-align: center;
+margin-left: 56px;
+margin-right: 56px;
+margin-top: 54px;
+}
+
+
+.miss{
+    width: 224px;
+    height: 243px;
+border-radius: 3px;
+text-align: center;
+box-shadow: 2px 2px 2px 2px #000;
+overflow: hidden;
+}
+  
+.miss i{
+    font-size: 25px;
+padding: 20px;
+text-shadow: 0 0 5px white;
+}
+.miss hr{
+    width: 30px;
+height: 3px;
+margin: 0 auto;
+border: none;
+background-color: white;
+}
+.miss h1{
+    margin-bottom: 10px;
+margin-top: 3px;
+    font-size: 20px;
+}
+.miss p{
+    padding: 14px;
+font-size: 13px;
+}
+}
+
+
+@media screen and (max-width:480px){
+    .about{
+    text-align: center;
+    gap: 13px;
+    display: grid;
+}
+.about h1{
+    color: white;
+font-size: 18px;
+margin-top: 20px;
+}
+.about p{
+    color: white;
+font-size: 10px;
+}
+
+.points{display: grid;
+    gap: 29px;
+    justify-content: center;
+    text-align: center;
+margin-left: 36px;
+margin-right: 36px;
+margin-top: 44px;
+}
+
+.miss{
+    width: 224px;
+    height: 243px;
+border-radius: 3px;
+text-align: center;
+box-shadow: 2px 2px 2px 2px #000;
+overflow: hidden;
+}
+
+.miss i{
+    font-size: 25px;
+padding: 20px;
+text-shadow: 0 0 5px white;
+}
+.miss hr{
+    width: 30px;
+height: 3px;
+margin: 0 auto;
+border: none;
+background-color: white;
+}
+.miss h1{
+    margin-bottom: 10px;
+margin-top: 3px;
+    font-size: 20px;
+}
+.miss p{
+    padding: 14px;
+font-size: 13px;
+}
+}
+
+
+@media screen and (max-width:480px){
+    .about{
+    text-align: center;
+    gap: 13px;
+    display: grid;
+}
+.about h1{
+    color: white;
+font-size: 25px;
+margin-top: 20px;
+}
+.about p{
+    color: white;
+font-size: 12px;
+}
+
+.points{display: grid;
+    gap: 29px;
+    justify-content: center;
+    text-align: center;
+margin-left: 56px;
+margin-right: 56px;
+margin-top: 54px;
+}
+
+.miss{
+    width: 224px;
+    height: 243px;
+border-radius: 3px;
+text-align: center;
+box-shadow: 2px 2px 2px 2px #000;
+overflow: hidden;
+}
+
+.miss i{
+    font-size: 25px;
+padding: 20px;
+text-shadow: 0 0 5px white;
+}
+.miss hr{
+    width: 30px;
+height: 3px;
+margin: 0 auto;
+border: none;
+background-color: white;
+}
+.miss h1{
+    margin-bottom: 10px;
+margin-top: 3px;
+    font-size: 20px;
+}
+.miss p{
+    padding: 14px;
+font-size: 13px;
+}
+}

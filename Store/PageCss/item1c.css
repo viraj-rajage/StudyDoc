@@ -1,0 +1,489 @@
+
+.container {
+    display: block;
+    align-items: center;
+    gap: 30px;
+  width: 78%;
+  background-color: #061A40;
+  }
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:#061A40;
+}
+.min {
+  border: 1px solid #35e2e2;
+  display: flex;
+  }
+.dis{
+  margin-top: 10px;
+  }
+.img1 {
+    width: 400px;
+    height: 225px;
+    /* background-image: url(sd.jpeg); */
+    background-size: cover;
+    margin-right: 20px;
+  margin-top: 10px;
+  }
+
+  .slider-cont{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    /* background-color: #41c3f7; */
+    overflow: hidden;
+}
+
+.slider div{
+    position: relative;
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+    /* opacity: 0.75; */
+    background-size: contain;
+  width: 25rem;
+  height: 225px;
+  /* background-image: url(e3.jpeg); */
+  animation: motion 8s infinite;
+  background-position: center;
+  background-repeat: no-repeat;
+    
+}
+
+.slider a{
+    width: 48rem;
+    object-fit: cover;
+    justify-content: center;
+}
+
+
+@keyframes motion{
+  0%{
+     transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+   }
+   30%{
+      transform: translateX(-100%);
+   }
+  50%{
+      transform: translateX(-100%);
+   }
+   55%{
+      transform: translateX(-200%);
+   }
+   70%{
+      transform: translateX(-200%);
+   }
+   75%{
+      transform: translateX(-300%);
+   }
+   90%{
+      transform: translateX(-300%);
+   }
+  100%{
+      transform: translateX(0);
+  }
+}
+  
+  .title {
+    color: white;
+    text-align: center;
+    
+  margin-top: 30px;
+  }
+  
+  .title h2 {
+  }
+  
+  .detail {
+    color: white;
+    display: flex;
+    width: 90%;
+    margin-left: 94px;
+    text-align: initial;
+    font-size: 19px;
+    margin-top: 30px;
+    justify-self: center;
+  }
+  
+  .but {
+    display: flex;
+  gap:52px;
+  justify-content: center;
+  margin-top: 35px;
+  margin-left: 24px;
+  }
+
+  a{
+    text-decoration: none;
+    color: aliceblue;
+}
+  
+  .view {
+    width: 176px;
+    height: 35px;
+    border: 1px solid rgb(10, 251, 255);
+    background: none;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+  }
+  
+  .buy {
+    width: 162px;
+    height: 35px;
+    border: 1px solid rgb(10, 251, 255);
+    background: none;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+  }
+
+
+  @media screen and (max-width:1200px){
+    .container {
+      display: block;
+      align-items: center;
+      gap: 30px;
+      width: 98%;
+      background-color: #061A40;
+      height: 101%;
+    }
+
+    .slider div{
+      width: 24rem;
+  height: 216px;
+    }
+    .detail {
+      color: white;
+      display: flex;
+      width: 90%;
+      text-align: initial;
+      font-size: 16px;
+      margin-top: 30px;
+      justify-content: center;
+    }
+    .img1 {
+      width: 386px;
+    height: 244px;
+    /* background-image: url(sd.jpeg); */
+    background-size: cover;
+    margin-right: 42px;
+    } 
+    .detail {
+      color: white;
+      text-align: initial;
+      font-size: 18px;
+    }
+    .but {
+      display: flex;
+      gap: 52px;
+      justify-content: center;
+      margin-top: 32px;
+      margin-left: 24px;
+    }   
+  }
+
+  @media screen and (max-width:950px){
+    .container {
+      display: block;
+      align-items: center;
+      gap: 30px;
+      width: 98%;
+      background-color: #061A40;
+      height: 101%;
+    }
+    .detail {
+      color: white;
+      text-align: initial;
+      font-size: 16px;
+      margin-left: 78px;
+      justify-content: center;
+    }
+      .img1 {
+        width: 310px;
+        height: 183px;
+        /* background-image: url(sd.jpeg); */
+        background-size: cover;
+        margin-right: 15px;
+      }
+      
+.dis {
+  margin-left: 20px;
+
+}
+
+.slider {
+  height: 181px;
+}
+.slider div {
+  width: 20rem;
+  height: 181px;
+}
+   
+    .but {
+      display: flex;
+      gap: 39px;
+      justify-content: center;
+      margin-top: 32px;
+      margin-left: 24px;
+    }
+    .view {
+      width: 131px;
+      height: 31px;
+      border: 1px solid rgb(10, 251, 255);
+      background: none;
+      color: white;
+      font-size: 15px;
+      text-align: center;
+    }
+    .buy {
+      width: 131px;
+      height: 31px;
+      border: 1px solid rgb(10, 251, 255);
+      background: none;
+      color: white;
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width:750px) {
+    .title {
+      color: white;
+      text-align: center;
+      font-size: 15px;
+    }
+    .slider div {
+      width: 17rem;
+      height: 155px;
+    }
+    .slider {
+      height: 156px;
+    }
+    .detail {
+      color: white;
+      text-align: initial;
+      font-size: 13px;
+      margin-left: 47px;
+      justify-content: center;
+    }
+    .img1 {
+      width: 275px;
+      height: 161px;
+      /* background-image: url(sd.jpeg); */
+      background-size: cover;
+      margin-right: 10px;
+    }
+    .but {
+      display: flex;
+      gap: 53px;
+      justify-content: center;
+      margin-top: 32px;
+      margin-left: 24px;
+    }
+    .view {
+      width: 105px;
+      height: 30px;
+      border: 1px solid rgb(10, 251, 255);
+      background: none;
+      color: white;
+      font-size: 13px;
+      text-align: center;
+    }
+    .buy {
+      width: 105px;
+      height: 30px;
+      border: 1px solid rgb(10, 251, 255);
+      background: none;
+      color: white;
+      font-size: 13px;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width:650px) {
+    .container {
+      display: block;
+      align-items: center;
+      gap: 30px;
+      width: 98%;
+      background-color: #061A40;
+      height: 101%;
+    }
+    .title {
+      color: white;
+      text-align: center;
+      font-size: 10px;
+    }
+    .detail {
+      color: white;
+      text-align: initial;
+      font-size: 11px;
+      margin-left: 0px;
+      display: grid;
+      justify-content: center;
+    }
+    .img1 {
+      width: 244px;
+      height: 164px;
+      background-size: cover;
+      margin-left: 20px;
+  
+      margin-bottom: 20px;
+    }
+    .detail {
+      color: white;
+      text-align: initial;
+      font-size: 13px;
+    }
+    .but {
+      display: flex;
+      gap: 52px;
+      justify-content: center;
+      margin-top: 20px;
+      margin-left: 24px;
+    }
+    .view {
+      width: 111px;
+      height: 29px;
+      border: 1px solid rgb(10, 251, 255);
+      background: none;
+      color: white;
+      font-size: 12px;
+      text-align: center;
+    }
+    .buy {
+      width: 111px;
+      height: 29px;
+      border: 1px solid rgb(10, 251, 255);
+      background: none;
+      color: white;
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width:450px){
+    .title {
+      color: white;
+      text-align: center;
+      font-size: 10px;
+    }
+    .detail {
+      color: white;
+      text-align: initial;
+      font-size: 13px;
+      margin-top: 0px;
+      justify-content: center;
+    }
+    .img1 {
+      width: 247px;
+    height: 159px;
+      background-size: cover;
+      margin-left: 21px;
+      margin-right: 0px;
+    }
+    .slider {
+      height: 153px;
+      width: 261px;
+    }
+    .slider div {
+      width: 17rem;
+      height: 154px;
+    }
+    .but {
+      display: flex;
+      gap: 55px;
+      justify-content: center;
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+    .view {
+      width: 95px;
+    height: 36px;
+    border: 1px solid rgb(10, 251, 255);
+    background: none;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    }
+    .buy {
+      width: 95px;
+      height: 36px;
+      border: 1px solid rgb(10, 251, 255);
+      background: none;
+      color: white;
+      font-size: 13px;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width:350px){
+    .title {
+      color: white;
+      text-align: center;
+      font-size: 9px;
+    }
+    .slider div {
+      width: 14rem;
+      height: 128px;
+    }
+    .slider {
+      height: 133px;
+      width: 227px;
+    }
+    .img1 {
+      width: 204px;
+      height: 137px;
+      background-size: cover;
+      margin-left: 15px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+    }
+    .detail {
+      color: white;
+      text-align: initial;
+      font-size: 11px;
+    }
+    .but {
+      display: flex;
+      gap: 38px;
+      justify-content: center;
+      margin-top: 11px;
+      margin-left: 10px;
+    }
+    .view {
+      width: 87px;
+      height: 34px;
+      border: 1px solid rgb(10, 251, 255);
+      background: none;
+      color: white;
+      font-size: 13px;
+      text-align: center;
+    }
+    .buy {
+      width: 87px;
+      height: 34px;
+      border: 1px solid rgb(10, 251, 255);
+      background: none;
+      color: white;
+      font-size: 13px;
+      text-align: center;
+    }
+  }

@@ -1,0 +1,21 @@
+.question_btn{
+    border-radius: 3px;
+    padding: 10px 20px; 
+    cursor: pointer;
+} 
+.question_messgae{
+    font-size: 24px;
+    color: cyan;
+} 
+form{
+    border-style: double; 
+    width: 80%; 
+    color: white;
+    border-radius: 3px; 
+    margin-top: 50px;
+    
+}
+.message_div1{
+    margin-top: 50px; 
+    margin-bottom: 20px;
+}

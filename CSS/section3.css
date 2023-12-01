@@ -1,0 +1,241 @@
+.prime_div{
+   margin-top: 90px;
+    width: 100%;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.secondary_div1{
+    height: 300px;
+    width: 40%;
+    
+   
+}
+.secondary_div2{
+    height: 300px;
+    width: 40%;
+} 
+.sec_div1_img{
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+}
+
+.slogan {
+   margin-left: -160px;
+}
+.latest_div{
+    background:#c2d3f4;
+    height: 40px;
+    color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slogan h2 {
+    font-weight: 700;
+    color: transparent;
+    font-size: 30px;
+    background: url(../Image/back.png);
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-background-clip: text;
+}
+.ad1{
+    color: aliceblue;
+    margin-top: 5px;
+    margin-left: -57px;
+    margin-bottom: 30px;
+}
+.makh2{
+    margin-left: 125px;
+    margin-bottom: 30px;
+}
+@keyframes back {
+    100% {
+        background-position: 2000px 0;
+    }
+} 
+.abcds{ 
+    border: none;
+   background-color:rgba(240, 248, 255, 0.17);
+   text-decoration: none;
+   font-size: 20px;
+   color: aliceblue;
+    padding: 10px 50px;
+    float: left;
+    margin-left: 60px;
+    border-radius: 2px;
+} 
+.abcds:hover{
+    color: blue;
+    background-color: aliceblue;
+}
+.marq{
+    height: 320px;
+    width: 100%;
+}
+
+.update1{
+    background-color: rgba(0, 255, 255, 0.175);
+    display: flex;
+    gap: 20px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+.update1 a{
+    text-decoration: none;
+    color: red;
+} 
+.link_div_1{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link_div_1 button{
+    padding: 10px 60px;
+    margin: 10px;
+    background:#c2d3f4;
+    border-radius: 2px;
+    
+    border: none;
+}
+.link_div_1 button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+.link_div_1 button a:hover{
+    
+    background: #061A40;
+    color: aliceblue;
+    
+} 
+.link_div_1 button:hover{
+    border: 1px solid rgba(240, 248, 255, 0.153);
+    background: #061A40;
+    color: aliceblue;
+   
+} 
+.updatehr{
+    height: 1px;
+    width: 70%;
+    display: none;
+    margin-top: 100px;
+    background-color: rgba(0, 255, 255, 0.074);
+    border-color: rgba(0, 255, 255, 0.084);
+   margin-bottom: -40px;
+}
+@media(max-width:1212px){
+    .slogan {
+        margin-left: -100px;
+     }
+}
+@media(max-width:1100px){
+    .slogan {
+        margin-left: -70px;
+     }
+}
+@media(max-width:1052px){
+   .prime_div{
+    display: table-row;
+   }
+   .updatehr{
+    display: block;
+   }
+   .secondary_div2{
+    margin-top: 200px;
+    margin-top: 90px;
+    width: 100%;
+    margin-bottom: 70px;
+    
+   }
+   .secondary_div1{
+    width: 100%;
+   }
+} 
+.home2{
+    width: 95%;
+    height: 500px;
+    display: none;
+} 
+@media(max-width:540px){
+    .home2{
+        display: block;
+        justify-content: center;
+    }
+    .prime_div{
+        display: none;
+    }
+}
+.home_img_2{
+    width: 95%;
+    height: 160px;
+    margin-top: 20px;
+}
+.slogan2 h2{
+    font-weight: 700;
+    color: transparent;
+    font-size: 30px;
+    background: url(../Image/back.png);
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-background-clip: text;
+}
+.ad2{
+    color: aliceblue;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.secondary_div3{
+   
+    height: 250px;
+    border: 1px solid rgba(0, 255, 255, 0.07);
+    border-radius: 1px;
+   
+}
+.marq2{
+    height: 200px;
+}
+.up2{
+    width: 95%;
+    margin: 10px  auto;
+   
+}
+.home2_link{
+   
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+.home2_link button{
+    padding: 10px 60px;
+    margin: 6px;
+    background:#c2d3f4;
+    border-radius: 1px;
+    border: none;
+} 
+.home2_link button a{
+    text-decoration: none;
+    color:blue;
+}
+.home2_link .bt2{
+    padding: 10px 88px;
+}
+.home2_link button a:hover{
+    
+    padding: 10px 40px;
+    overflow: hidden;
+   color:blue;
+   
+} 

@@ -1,0 +1,85 @@
+#contact{
+    margin-top: 50px;
+} 
+
+fieldset{
+    margin: 30px; 
+    border-style: double; 
+    border-radius: 4px; 
+    width: 40%;
+    height: 650px; 
+    border-color: aqua; 
+    background-color: rgba(240, 248, 255, 0.042);
+} 
+legend{  
+    margin-left: 30px; 
+    font-size: 18px; 
+    color: rgb(151, 246, 241); 
+    padding: 10px;
+} 
+.hr1{
+    color: blue;  
+    width: 35%;
+    border-color: aliceblue;
+    margin-top: 5px; 
+    margin-bottom: 60px; 
+}  
+.inputcontact_form{
+   border: none; 
+   outline: none; 
+   color: blue;
+    float: left; 
+    margin-left: 20px; 
+    background: rgb(214, 241, 249);
+    height: 40px; 
+    width: 80%; 
+    padding-left: 20px; 
+    margin-bottom: 20px;
+} 
+.check{
+    float: left; 
+    margin-left: 20px; 
+    outline: none; 
+} 
+#area{
+    float: left;
+    margin-left: 20px; 
+    margin-top: 20px; 
+    width: 80%; 
+    padding-top: 10px;
+    padding-left: 20px;  
+    outline: none;
+} 
+.sub{
+    margin-top: 20px; 
+    outline: none; 
+    cursor: pointer;
+    border: none; 
+    width: 83%; 
+    height: 40px; 
+    float: left; 
+    margin-left: 20px;  
+    padding: 4px;
+    font-size: 20px; 
+    background: rgba(214, 241, 249, 0.162); 
+    color: aqua;
+} 
+.sub:hover{
+    background-color: rgba(252, 255, 255);  
+    color: blue;
+    transition: 600ms;
+} 
+
+@media (max-width:1340px){
+    fieldset{
+        width: 70%;
+    }
+} 
+
+@media (max-width:670px){
+    fieldset{
+        width: 90%;  
+        margin-left: -3px;
+        
+    }
+}   

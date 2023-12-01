@@ -1,0 +1,76 @@
+.Notes_div{
+  background-color: white;
+    width: 330px;
+    height: auto;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 4px;
+}
+.innner_notes_div{
+    display: flex;
+    height: 130px;
+} 
+
+@media(max-width:600px){
+  .button2{
+    display: none;
+  }
+}
+  .notes_img2{
+        height: 130px;
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+       background-color: #ffffff;
+        width: 120px;
+       
+      } 
+  .notes_img{
+    height: 130px; 
+    width: 100px;
+    
+  } 
+
+  .notes_details{
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    height: 130px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  .notes_chpter_details{
+   background-color: rgba(127, 234, 255, 0.265); 
+   
+   height: auto;
+   width: 330px; 
+   color: blue;
+  }
+.notes_link{
+   border: 1px solid black;
+   width: 80%;
+   
+   margin-bottom: 8px; 
+   background-color:#061A40;
+   text-decoration: none;
+   border: none;
+   clip-path: polygon(98% 0, 100% 50%, 98% 100%, 0% 100%, 1% 50%, 0% 0%);
+  padding: 5px;
+} 
+.notes_link:hover{
+  background-color: white;
+  
+}
+a:hover{
+  color: black;
+}
+a{
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+.my-details{
+  transition: all 3s;
+
+} 
+address{
+  clip-path: polygon(0% 0%, 97% 0, 100% 50%, 97% 100%, 0% 100%);
+}

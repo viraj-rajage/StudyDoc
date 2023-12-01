@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=Roboto+Mono:wght@300&display=swap"
+    rel="stylesheet">
+     <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://kit.fontawesome.com/ae20eb4e30.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../Program_theme.css">
+    <title>Color Code</title>
+    <style>
+          * {
+          margin: 0;
+          padding: 0;
+          font-family: 'Anonymous Pro', monospace;
+          scroll-behavior: smooth;
+        }
+        body {
+          background: #061A40; 
+          overflow-x: hidden;
+        }
+        .ad2{
+            color: aliceblue;
+            margin: 10px;
+            height: 60px;
+            overflow-y: scroll;
+            padding: 10px;
+            border-radius: 2px;
+            width: 90%;
+            margin: 30px auto;
+            background-color: rgba(0, 255, 255, 0.177);
+        }
+        .color_code_program{
+            height: 400px;
+            width: 90%;
+            background-color: black;
+            margin: auto;
+            padding: 10px;
+            border-radius: 2px;
+            overflow-y: scroll;
+            overflow-x: scroll;
+        }
+        .ad2::-webkit-scrollbar {
+          width: 12px;   
+          height: 2px;            
+        }
+        .color_code_program::-webkit-scrollbar {
+          width: 12px;   
+          height: 2px;            
+        }
+        .code_program{
+            color: aliceblue;
+        }
+        pre{
+           padding: 10px;
+        }
+      
+        .float_div{
+            height: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 3px;
+            float: right;
+            background-color: aliceblue;
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 70%;
+        }
+       .demo_color_code{
+        height: 130px;
+        width: 200px;
+        background-color: red;
+        display: inline-block;
+        margin: 10px;
+       }
+    </style>
+</head>
+<body>
+    
+    <div style="background-color: rgba(240, 248, 255, 0.147); margin: 10px; border-radius: 2px; padding: 20px;">
+        <address style="color: aliceblue; display: flex; justify-content: center;">Title:- How To Add Color In C Language Output (Terminal)</address>
+    </div>
+    <address class="ad2">
+        In Following Program 1st Create cyan function in this print the cyan color for that you need to write cyan color code in printf function and in reset function you need to write color code for reset the color for ex. use call <span style="color: red;">cyan()</span> at line no. 4 and you call <span style="color: red;">reset()</span> function in line no 20 then in 4 to 20 line of code can get cyan color 
+    </address>
+    <div class="color_code_program">
+        <!-- float div -->
+        <div class="float_div"><i onclick="copyContent();"  style="color: blue; cursor: pointer;" class="fa-solid fa-copy"></i> <span style="margin-left: 10px;"></span> <a style="color: blue;" href="https://www.onlinegdb.com/online_c_compiler" target="_blank"><i class="fa-solid fa-code"></i></a></div>
+        <code class="code_program">
+             <pre>
+<span class="keyword">#include</span><span class="file"><</span><span class="file">stdio.h></span>
+
+<span class="keyword">#include</span><span class="file"><</span><span class="file">stdlib.h></span>
+<span class="com">/*</span>
+<p class="com">more color code:
+    1> Green ->  \033[0;32m  
+    2> Purple ->  \033[0;35m 
+    3> Red ->  \033[0;31m
+    4> Blue ->  \033[0;34m
+    
+</p>
+<span class="com">*/</span>
+<span class="keyword">void</span> cyan<span class="roundB">()</span>
+<span class="roundB">{</span>
+    printf(" \033[0;36m");
+    <span class="com">// for cyan color</span>
+    <span class="com">// \033[0;36m this is the color code of cyan color</span>
+<span class="roundB">}</span>
+
+<span class="keyword">void</span> reset<span class="roundB">()</span>
+<span class="roundB">{</span>
+    printf("\033[0m");
+    <span class="com">// for cyan color</span>
+    <span class="com">// \033[0m this use for reset the color means at this point only user color apply</span>
+<span class="roundB">}</span>
+
+<span class="keyword">int</span> main<span class="roundB">()</span><span class="roundB">{</span>
+
+    cyan<span class="roundB">()</span>;
+    printf("StudyDoc Creation");
+    printf("StudyDoc");
+    reset<span class="roundB">()</span>;
+    printf("Default color");
+
+    <span class="keyword">return</span> <span>0;</span>
+<span class="roundB">}</span>    
+             </pre>
+        </code>
+    </div>
+
+<code id="program2" style="display: none;">
+
+#include<stdio.h>
+#include<stdlib.h>
+
+void cyan()
+{
+    printf(" \033[0;36m");
+    // for cyan color
+    // \033[0;36m this is the color code of cyan color
+}
+void reset()
+{
+    printf("\033[0m");
+    // for cyan color
+    // \033[0m this use for reset the color means at this point only user color apply
+}
+int main(){
+
+    cyan();
+    printf("StudyDoc Creation");
+    printf("StudyDoc");
+    reset();
+    printf("Default color");
+
+    return 0;
+}    
+</code>
+
+    <script>
+         function copyContent() {
+          var content = document.getElementById("program2").innerHTML;
+          navigator.clipboard.writeText(content);
+          alert("Code Copied!")
+        }
+
+    </script>
+</body>
+</html>
